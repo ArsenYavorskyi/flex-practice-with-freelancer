@@ -13,3 +13,48 @@
  ul li{list-style:none;}
  img{vertical-align:top;}
  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+body{ 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex-grow: 1;
+}
+
+.hi {
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.hi__row {
+}
+
+.footer {
+	background-color: #f5f5f5;
+}
+
+.footer__row {
+	display: flex;
+	height: 65px;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__text {
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	color: #445162;;
+}
+
