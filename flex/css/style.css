@@ -162,6 +162,88 @@ line-height: 36px;
 	padding-top: 15px;
 }
 
+/* Styles for 'Subscribe' section */
+
+.subscribe {
+	padding: 50px 0;
+}
+
+.subscribe__title {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.subscribe__body {
+	max-width: 990px;
+	margin: 0 auto;
+}
+
+.subscribe__row {
+	display: flex;
+	gap: 40px;
+}
+
+.subscribe__column {
+	flex: 0 1 33.333%;
+	display: flex;
+}
+
+.subscribe__item {
+	background-color: #445162;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #445162;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.subscribe__subtitle {
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 30px;
+	padding: 12px 0;
+}
+
+.subscribe__label {
+	background-color: #fff;
+	text-align: center;
+	font-size: 40px;
+	line-height: 30px;
+	color: #445162;
+	padding: 19px 0;
+
+}
+
+.subscribe__text {
+	font-size: 14px;
+	line-height: 24px;
+	padding: 20px;
+	flex: 1 1 auto;
+}
+
+.subscribe__text p {
+	margin-bottom: 15px;
+}
+
+.subscribe__text p:last-child {
+	margin: 0;
+}
+
+.subscribe__btn {
+	display: block;
+	height: 40px;
+	background-color: #ffffff;
+	margin: 0 20px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #445161;
+}
+
 /* Styles for the footer */
 .footer {
 	background-color: #f5f5f5;
